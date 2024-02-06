@@ -53,8 +53,7 @@
                   to transform
                 </p>
                 <p class="h4">
-                  <span class="num">4</span> designs into
-                  <code class="code">working code.</code>
+                  <span class="num">4</span> designs into working code.
                 </p>
               </div>
             </div>
@@ -550,7 +549,7 @@
                 <span class="num">33</span>CV Link:
                 <a
                   target="_blank"
-                  href="mailto:markbalazo14@gmail.com"
+                  href="https://drive.google.com/file/d/18Ii5HNJ5Guk2GzL-bcXeGb5WAqe9fSII/view?usp=drivesdk"
                   class="a-link"
                   >here</a
                 >
