@@ -36,7 +36,7 @@
         <!-- intro -->
         <div class="sections" id="intro">
           <div class="row">
-            <div class="flex-center col-md-6">
+            <div class="flex-center col-md-12 col-lg-6">
               <div class="code-wrapper">
                 <p class="h1 mb-4">
                   <span class="num">1</span> Hi! I'm
@@ -57,7 +57,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12 col-lg-6">
               <h1 class="header code">
                 coding is
                 <span
@@ -311,7 +311,7 @@
             <div class="code-wrapper">
               <p class="h3 mb-4"><span class="num">28</span> Web/ Work</p>
               <div class="row mb-5">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -341,7 +341,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="col-lg-3 col-md-4">
+                <!-- <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <img
                       src="https://placehold.co/200"
@@ -375,7 +375,7 @@
             <div class="code-wrapper">
               <p class="h3 mb-4"><span class="num">29</span> Web/ Personal</p>
               <div class="row mb-5">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -401,7 +401,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -426,7 +426,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -459,7 +459,7 @@
             <div class="code-wrapper">
               <p class="h3 mb-4"><span class="num">30</span> Figma/ Personal</p>
               <div class="row mb-5">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -483,7 +483,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-6">
                   <div class="card">
                     <a
                       class="img-link"
@@ -579,7 +579,7 @@
                 </span>
                 <a
                   target="_blank"
-                  href="https://markkirivera.github.io/"
+                  href="https://github.com/markkirivera"
                   class="ms-3 a-link"
                   >Github</a
                 >
