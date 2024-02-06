@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:ital,wght@0,400;0,500;1,400&family=Press+Start+2P&display=swap");
+* {
+    color: #f4f4f4;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-family: "Source Code Pro", monospace;
+}
+
+.a-link {
+    color: #f4f4f4;
+}
+
+.a-link:hover {
+    color: #00a5cf;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+/* icons */
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL"0, "wght"400, "GRAD"0, "opsz"24;
+}
+
+#app {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+body {
+    margin: 0;
+    /* min-height: 90vh; */
+    background-color: #161616;
+}
+
+nav {
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 1px;
+    position: fixed;
+    background-color: #3c3c3c;
+}
+
+.dots-wrapper {
+    display: flex;
+    width: 220px;
+    justify-content: space-around;
+    margin: 1rem 0.5rem;
+}
+
+.title {
+    cursor: pointer;
+    margin-left: 1rem;
+    font-family: "Poppins", monospace;
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.dot.red {
+    background-color: #fb3333;
+}
+
+.dot.yellow {
+    background-color: #fec601;
+}
+
+.dot.green {
+    background-color: #6eeb83;
+}
+
+.tab-wrapper {
+    display: flex;
+    border-top: 1.5px solid darkgrey;
+    border-bottom: 1.5px solid darkgrey;
+}
+
+.file-tab {
+    width: 120px;
+    display: flex;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    background-color: #3c3c3c;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins", monospace;
+    border-right: 2px solid #161616;
+}
+
+.file-tab a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+}
+
+.file-tab:hover a,
+.file-tab.active a {
+    color: #6eeb83;
+}
+
+.file-tab.active {
+    background-color: #161616;
+}
+
+.file-tab span {}
+
+main {
+    max-height: 80vh;
+    margin-top: 6rem;
+    overflow-y: scroll;
+    background-color: #161616;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    border-radius: 1px;
+    border: 1px solid #1d1d1d;
+    background-color: #1d1d1d;
+}
+
+main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 1px solid #3c3c3c;
+    background-color: #3c3c3c;
+    cursor: pointer;
+}
+
+.sections {
+    margin: 6rem 0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+    /* flex-direction: column; */
+    /* justify-content: start; */
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.intro {}
+
+hr {
+    width: 100px;
+}
+
+.code {
+    /* color: #69dc9e; */
+    color: #00a5cf;
+}
+
+.code-wrapper {
+    padding-left: 1rem;
+    border-left: 2px solid grey;
+}
+
+p {
+    font-size: 16px;
+}
+
+.code-wrapper p {
+    /* font-size: 16px; */
+}
+
+.header.code {
+    color: #dedede;
+    font-size: 70px;
+    position: relative;
+    line-height: 95px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.header span {
+    font-size: 45px;
+    color: #d63384;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.header::before {
+    content: "<";
+    color: #00a5cf;
+}
+
+.header::after {
+    content: ">";
+    color: #00a5cf;
+}
+
+.name,
+.green {
+    color: #6eeb83;
+}
+
+.front,
+.yellow {
+    color: #eeb902;
+}
+
+.purple {
+    color: #d63384;
+}
+
+.header .white {
+    transition: all 0.5s ease;
+    color: #dedede;
+}
+
+.opaque {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.blue {
+    color: #00a5cf;
+}
+
+.orange {
+    color: #ff7d00;
+}
+
+.badge {
+    font-size: 15px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+span.num {
+    color: grey;
+    font-size: 16px;
+    margin-right: 0.7rem;
+}
+
+.section-title {
+    color: #00a5cf;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.material-symbols-outlined {
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+
+p i {
+    margin-left: 0.7rem;
+}
+
+.card {
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    background-color: rgb(60 60 60);
+}
+
+.card:hover {
+    transform: scale(1.025);
+    transition: all 0.5s ease;
+}
+
+.img-holder {
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.homemade {
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/homemade.png');
+}
+
+.bubbli {
+    background-size: cover;
+    background-position: 26% 3%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/bubbli.png');
+}
+
+.vocal {
+    background-size: cover;
+    background-position-y: 35%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/vocal.png');
+}
+
+.daily {
+    background-size: cover;
+    background-position-y: 35%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/vocal.png');
+}
+
+.chat {
+    background-size: cover;
+    background-position-y: 35%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/chattable.png');
+}
+
+.transway {
+    background-size: cover;
+    background-position-y: 35%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/transway.png');
+}
+
+.card img {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.hidden {
+    /* display: none; */
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 1017px) {
+    .header.code {
+        font-size: 55px;
+        text-align: center;
+    }
+    .header span {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .sections .col-md-6 {
+        width: 100%;
+    }
+    .sections .col-md-6.flex-center {
+        margin-bottom: 5rem;
+    }
+    .badge {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+        max-height: 88vh;
+    }
+    .file-tab {
+        width: 100px;
+    }
+    .file-tab a {
+        font-size: 16px;
+    }
+    .card {
+        width: 85%;
+        margin: 3rem auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header.code {
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .header span {
+        font-size: 25px;
+    }
+}
