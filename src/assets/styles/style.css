@@ -368,11 +368,17 @@ p i {
     main {
         max-height: 88vh;
     }
+    .code-wrapper p {
+        font-size: 16px;
+    }
     .file-tab {
         width: 100px;
     }
     .file-tab a {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .material-symbols-outlined {
+        padding-left: 0.25rem;
     }
     .card {
         width: 85%;

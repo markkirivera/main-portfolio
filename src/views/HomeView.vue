@@ -48,12 +48,12 @@
                   <code class="front">front-end</code> web developer.
                 </p>
                 <p class="h4">
-                  <span class="num">3</span> I
+                  <span class="num">3</span> I use
                   <span class="green hidden">{{ stack }}</span>
-                  <code>transform</code> designs
+                  to transform
                 </p>
                 <p class="h4">
-                  <span class="num">4</span> into
+                  <span class="num">4</span> designs into
                   <code class="code">working code.</code>
                 </p>
               </div>
