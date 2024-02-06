@@ -85,11 +85,13 @@
                 As a master of the arcane arts of HTML, CSS, and JavaScript,
               </p>
               <p class="mb-2">
-                <span class="num">7</span> I conjure the mystical elements that bring websites to life. Through my spellbinding skills, 
+                <span class="num">7</span> I conjure the mystical elements that
+                bring websites to life. Through my spellbinding skills,
               </p>
               <p class="mb-2">
                 <span class="num">7</span>
-                I transmute mere designs into interactive and captivating experiences for all who traverse the digital realm ✨.
+                I transmute mere designs into interactive and captivating
+                experiences for all who traverse the digital realm ✨.
               </p>
             </div>
 
@@ -152,8 +154,8 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                Convert mockups into working code using HTML, CSS,
-                JavaScript, Bootstrap and Vue 3.
+                Convert mockups into working code using HTML, CSS, JavaScript,
+                Bootstrap and Vue 3.
               </p>
               <p class="mb-2">
                 <span class="num">19</span>
@@ -268,7 +270,8 @@
                   radio_button_unchecked
                 </span>
                 <span class="content ms-3"
-                  >HTML5, CSS3, JavaScript, <span class="green">Vue JS</span></span
+                  >HTML5, CSS3, JavaScript,
+                  <span class="green">Vue JS</span></span
                 >
               </p>
               <p class="mb-2">
@@ -276,7 +279,9 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                <span class="content ms-3"><span class="blue">Bootstrap</span>, Materialize CSS</span>
+                <span class="content ms-3"
+                  ><span class="blue">Bootstrap</span>, Materialize CSS</span
+                >
               </p>
               <p class="mb-2">
                 <span class="num">29</span>
@@ -284,7 +289,8 @@
                   radio_button_unchecked
                 </span>
                 <span class="content ms-3"
-                  >Node, Firebase, <span class="yellow">API integrations</span></span
+                  >Node, Firebase,
+                  <span class="yellow">API integrations</span></span
                 >
               </p>
               <p class="mb-2">
@@ -307,11 +313,12 @@
               <div class="row mb-5">
                 <div class="col-lg-3 col-md-4">
                   <div class="card">
-                    <img
-                      src="https://placehold.co/200"
-                      class="card-img-top"
-                      alt="..."
-                    />
+                    <a
+                      class="img-link"
+                      href="https://main--engagement-tool.netlify.app/"
+                      target="_blank"
+                      ><div class="img-holder elt"></div
+                    ></a>
                     <div class="hidden card-body">
                       <p class="card-text">
                         <b class="project-title">Engagement Approval Tool</b>
@@ -334,7 +341,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-4">
+                <!-- <div class="col-lg-3 col-md-4">
                   <div class="card">
                     <img
                       src="https://placehold.co/200"
@@ -362,7 +369,7 @@
                       >
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="code-wrapper">
@@ -381,9 +388,7 @@
                       <p class="card-text">
                         <b class="project-title">Live Chat</b>
                       </p>
-                      <p class="project-body">
-                        A simple live chat app.
-                      </p>
+                      <p class="project-body">A simple live chat app.</p>
                       <span class="wrapper"
                         ><span class="badge rounded-pill bg-primary"
                           >HTML5/CSS3</span
@@ -502,7 +507,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-4 hidden">
+                <!-- <div class="col-lg-3 col-md-4 hidden">
                   <div class="card">
                     <a class="img-link" target="_blank" href="">
                       <div class="img-holder daily"></div>
@@ -521,7 +526,7 @@
                       >
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -560,14 +565,24 @@
                 ><span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                <a target="_blank" href="https://www.linkedin.com/in/mark-balazo" class="ms-3 a-link">LinkedIn</a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/mark-balazo"
+                  class="ms-3 a-link"
+                  >LinkedIn</a
+                >
               </p>
               <p class="mb-2">
                 <span class="num">36</span
                 ><span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                <a target="_blank" href="https://markkirivera.github.io/" class="ms-3 a-link">Github</a>
+                <a
+                  target="_blank"
+                  href="https://markkirivera.github.io/"
+                  class="ms-3 a-link"
+                  >Github</a
+                >
               </p>
             </div>
           </div>

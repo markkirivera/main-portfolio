@@ -309,6 +309,12 @@ p i {
     background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/bubbli.png');
 }
 
+.elt {
+    background-size: cover;
+    background-position: 26% 3%;
+    background-image: linear-gradient(0deg, #63251200, #63251200), url('@/assets/img/elt.png');
+}
+
 .vocal {
     background-size: cover;
     background-position-y: 35%;
