@@ -45,11 +45,11 @@
                 </p>
                 <p class="h4">
                   <span class="num">2</span> I am a
-                  <code class="front">front-end</code> web developer.
+                  <code class="purple">front-end</code> web developer.
                 </p>
                 <p class="h4">
                   <span class="num">3</span> I use
-                  <span class="green hidden">{{ stack }}</span>
+                  <span class="yellow">{{ stack }}</span>
                   to transform
                 </p>
                 <p class="h4">
@@ -152,7 +152,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                Convert mockups into working code with using HTML, CSS,
+                Convert mockups into working code using HTML, CSS,
                 JavaScript, Bootstrap and Vue 3.
               </p>
               <p class="mb-2">
@@ -261,14 +261,14 @@
             </div>
 
             <div class="code-wrapper mt-5">
-              <p class="h3 mb-4"><span class="num">26</span> Skills</p>
+              <p class="h3 mb-4 green"><span class="num">26</span> Skills</p>
               <p class="mb-2">
                 <span class="num">27</span>
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
                 <span class="content ms-3"
-                  >HTML5, CSS3, JavaScript, Vue JS</span
+                  >HTML5, CSS3, JavaScript, <span class="green">Vue JS</span></span
                 >
               </p>
               <p class="mb-2">
@@ -276,7 +276,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                <span class="content ms-3">Bootstrap, Materialize CSS</span>
+                <span class="content ms-3"><span class="blue">Bootstrap</span>, Materialize CSS</span>
               </p>
               <p class="mb-2">
                 <span class="num">29</span>
@@ -284,7 +284,7 @@
                   radio_button_unchecked
                 </span>
                 <span class="content ms-3"
-                  >Node, Firebase, API integrations</span
+                  >Node, Firebase, <span class="yellow">API integrations</span></span
                 >
               </p>
               <p class="mb-2">
@@ -292,7 +292,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                <span class="content ms-3">Figma</span>
+                <span class="content pink ms-3">Figma</span>
               </p>
             </div>
           </div>
@@ -314,10 +314,10 @@
                     />
                     <div class="hidden card-body">
                       <p class="card-text">
-                        <b class="project-title">ELT Approval Tool</b>
+                        <b class="project-title">Engagement Approval Tool</b>
                       </p>
                       <p class="project-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A web app that digitises engagement approval processes.
                       </p>
                       <span class="wrapper"
                         ><span class="badge rounded-pill bg-primary">HTML5</span
@@ -346,7 +346,7 @@
                         <b class="project-title">Overtime Approval Tool</b>
                       </p>
                       <p class="project-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A tool for review and approval of employee overtime.
                       </p>
                       <span class="wrapper"
                         ><span class="badge rounded-pill bg-primary">HTML5</span

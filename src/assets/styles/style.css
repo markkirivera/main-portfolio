@@ -219,13 +219,16 @@ p {
     color: #6eeb83;
 }
 
-.front,
+.pink {
+    color: #ff85c2;
+}
+
 .yellow {
     color: #eeb902;
 }
 
 .purple {
-    color: #d63384;
+    color: #6f42c1;
 }
 
 .header .white {
