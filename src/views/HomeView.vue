@@ -146,8 +146,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                Be involved in the project development from planning,
-                development and release.
+                Work on several diamond and high impact projects from start to release.
               </p>
               <p class="mb-2">
                 <span class="num">18</span>
@@ -162,8 +161,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                Make sure web pages meet the project requirements, and look good
-                on all screens from desktop to mobile.
+                Make sure web pages meet the project requirements, brand compliant, and testable.
               </p>
               <p class="mb-2">
                 <span class="num">19</span>
@@ -177,7 +175,7 @@
                 <span class="material-symbols-outlined">
                   radio_button_unchecked
                 </span>
-                Determine coding requirements based on project specifications.
+                Fix issues during QA testing.
               </p>
               <p class="h5 mt-3 mb-2">
                 <span class="num">20</span>
