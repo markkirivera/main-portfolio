@@ -209,7 +209,7 @@
               </p>
               <p class="mb-2">
                 <span class="num">23</span>
-                <i>Nov 2021 - Present</i>
+                <i>Feb 2019 - Aug 2020</i>
               </p>
               <p class="mb-2">
                 <span class="num">24</span>
